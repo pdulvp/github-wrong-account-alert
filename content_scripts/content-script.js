@@ -60,21 +60,32 @@ function getRulesResult(storage) {
 }
 
 function unhighlight(element) {
-	let previous = element.getAttribute("previous");
-	if (previous != null) {
-		element.setAttribute("style", previous);
-	} else {
-		element.removeAttribute("style");
-		element.removeAttribute("previous");
+	if (element) {
+		let headers = element.getElementsByTagName("header");
+		if (headers.length > 0) {
+			let header = headers[0];
+			let previous = header.getAttribute("previous");
+			if (previous != null) {
+				header.setAttribute("style", previous);
+			} else {
+				header.removeAttribute("style");
+				header.removeAttribute("previous");
+			}
+		}
 	}
 }
 
 function highlight(element) {
-	let header = element.getElementsByTagName("header")[0];
-	if (!header.hasAttribute("previous")) {
-		header.setAttribute("previous", header.getAttribute("style"));
+	if (element) {
+		let headers = element.getElementsByTagName("header");
+		if (headers.length > 0) {
+			let header = headers[0];
+			if (!header.hasAttribute("previous")) {
+				header.setAttribute("previous", header.getAttribute("style"));
+			}
+			header.setAttribute("style", "background-color: red; border: 5px solide red;");
+		}
 	}
-	header.setAttribute("style", "background-color: red; border: 5px solide red;");
 }
 
 browser.runtime.onMessage.addListener(handleMessage);
