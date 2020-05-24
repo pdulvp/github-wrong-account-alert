@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!-- 
+ This Code is published under the terms and conditions of the CC-BY-NC-ND-4.0
+ (https://creativecommons.org/licenses/by-nc-nd/4.0)
+ 
+ Please contribute to the current project.
+ 
+ SPDX-License-Identifier: CC-BY-NC-ND-4.0
+ @author: pdulvp@laposte.net
+-->
+   
+<html class="html-dialog">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css"/>
+  </head>
+<body class="dialog">
+  <div id="option-description"></div>
+  <div class="button-bar">
+    <button id="button-new-rule"></button>
+    <button id="button-new-item"></button>
+  </div>
+  <div class="dialog-zone">
+    <div id="left" class="resizeable-hpane left-pane" tabindex="0" ></div>
+    <div class="resizeable-hpane right-pane">
+      
+    <div id="table-cache" class="table-cache" tabindex="1" ><div class="table-header">
+        <div class="table-column table-column-icon"></div>
+        <div class="table-column-wrapper">
+          <div id="table-column-name" class="table-column table-column-name"></div>
+          <div class="table-column-wrapper-2">
+            <div id="table-column-xpath" class="table-column table-column-xpath"></div>
+            <div id="table-column-value" class="table-column table-column-value"></div>
+          </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <div id="popup-menu" class="popup-menu">
+  </div>
+  
+  <script src="compat.js"></script>
+  <script src="ui-helper.js"></script>
+  <script src="options.js"></script>
+
+</body>
+
+</html>

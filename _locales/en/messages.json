@@ -1,0 +1,44 @@
+{
+    "extensionName": { "message": "GitHub Wrong Account Alert"},
+    "extensionDescription": { "message": "When you have several GitHub accounts, it avoids inadvertant actions with the wrong account on a repository" },
+
+    "notification_copied_title": { "message": "Copied!" },
+    "notification_copied_description": { "message": "Copied to clipboard" },
+    "notification_newrule_title": { "message": "Rule created" },
+    "notification_newrule_description": { "message": "Click here to edit rule" },
+    "notification_newitem_title": { "message": "Item created" },
+    "notification_newitem_description": { "message": "Click here to edit item" },
+    "notification_edititem_title": { "message": "Item modified" },
+    "notification_edititem_description": { "message": "Click here to edit item" },
+    
+
+    "option_description": { "message": "Add your account name and some restrictions. When you will visit mentionned GitHub projects, they will be red-highlighted if you are inadvertently connected to the given account." },
+    "menu_new_rule": { "message": "Create a new rule" },
+    "menu_new_item": { "message": "Add a new item" },
+    "menu_edit_rule": { "message": "Edit rule" },
+    "menu_highlight_rule": { "message": "Highlight" },
+    "menu_edit_item": { "message": "Change '$1'" },
+
+    "new_rule_name": { "message": "<F2 to edit account name>" },
+    "new_item_name": { "message": "<F2 to edit>" },
+
+    "popup_edit_rules": { "message": "Edit Rules" },
+    "no_rule_for_tab": { "message": "No rule from this page" },
+    "error_occured": { "message": "An error occured" },
+    "no_result": { "message": "No result" },
+
+    "label_site": { "message": "Site:" },
+    "button_open": { "message": "Open to a new tab" },
+    "button_inspect": { "message": "Execute current rule on the given tab" },
+    "options_opened_tab": { "message": "There is no opened tab matching this rule" },
+    "button_new_rule": { "message": "Add account" },
+    "button_new_item": { "message": "Add restriction" },
+    "button_ok": { "message": "OK" },
+    "button_cancel": { "message": "Cancel" },
+    "table_column_name": { "message": "User/Organization" },
+    "table_column_xpath": { "message": "Projects" },
+    "table_column_value": { "message": "" }
+    
+}
+
+
