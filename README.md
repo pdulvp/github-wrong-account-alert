@@ -1,5 +1,5 @@
 [![Firefox](https://img.shields.io/badge/Firefox-install--addon-FF7139?style=flat-square&logo=Mozilla%20Firefox)](https://addons.mozilla.org/fr/firefox/addon/github-wrong-account-alert/)
-[![Google](https://img.shields.io/badge/Chrome-pending--review-BBB?style=flat-square&logoColor=BBB&logo=Google%20Chrome)](https://chrome.google.com/webstore)
+[![Google](https://img.shields.io/badge/Chrome-install--addon-4285F4?style=flat-square&logoColor=64a0ff&logo=Google%20Chrome)](https://chrome.google.com/webstore/detail/github-wrong-account-aler/fljjamikcgffdpegjimlahnaipfkghdl)
 &emsp;&emsp;[![Patreon](https://img.shields.io/badge/sponsor-patreon-F96854?style=flat-square&logo=patreon)](https://patreon.com/pdulvp) [![Patreon](https://img.shields.io/badge/news-pdulvp-ffbd00?logoColor=ffbd00&style=flat-square&logo=patreon)](https://patreon.com/pdulvp)
 
 This extension allows to being notified when you are connected to the wrong GitHub account for a project.
