@@ -5,7 +5,6 @@ $name = $foo.version+".zip"
 if (!(Test-Path $name -PathType leaf))
 {
     Compress-Archive -Path manifest.json -DestinationPath $name
-    Compress-Archive -Update -Path background.js -DestinationPath $name
     Compress-Archive -Update -Path _locales -DestinationPath $name
     Compress-Archive -Update -Path content_scripts -DestinationPath $name
     Compress-Archive -Update -Path icons -DestinationPath $name

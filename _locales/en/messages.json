@@ -19,8 +19,8 @@
     "menu_highlight_rule": { "message": "Highlight" },
     "menu_edit_item": { "message": "Change '$1'" },
 
-    "new_rule_name": { "message": "<F2 to edit account name>" },
-    "new_item_name": { "message": "<F2 to edit>" },
+    "new_rule_name": { "message": "F2 to edit account name" },
+    "new_item_name": { "message": "F2 to edit" },
 
     "popup_edit_rules": { "message": "Edit Rules" },
     "no_rule_for_tab": { "message": "No rule from this page" },
@@ -35,10 +35,8 @@
     "button_new_item": { "message": "Add restriction" },
     "button_ok": { "message": "OK" },
     "button_cancel": { "message": "Cancel" },
-    "table_column_name": { "message": "User/Organization" },
+    "table_column_name": { "message": "User-Organization" },
     "table_column_xpath": { "message": "Projects" },
     "table_column_value": { "message": "" }
     
 }
-
-
